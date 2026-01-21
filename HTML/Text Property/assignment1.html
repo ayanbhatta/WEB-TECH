@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            text-decoration: underline;
+        }
+        #c1:checked ~ #demo{
+            color: red;
+        }
+        #c2:checked ~ #demo{
+            color: black;
+        }
+        #c3:checked ~ #demo{
+            color: blue;
+        }
+        #c4:checked ~ #demo{
+            color: yellow;
+        }
+        #t1:checked ~ #demo{
+            text-transform: uppercase;
+        }
+        #t2:checked ~ #demo{
+            text-transform: lowercase;
+        }
+        #t3:checked ~ #demo{
+            text-transform: capitalize;
+        }
+        #d1:checked ~ #demo{
+            text-decoration: underline;
+        }
+        #d2:checked ~ #demo{
+            text-decoration: overline;
+        }
+        #d3:checked ~ #demo{
+            text-decoration: line-through;
+        }
+        #s1:checked ~ #demo{
+            text-decoration-style: double;
+        }
+        #s2:checked ~ #demo{
+            text-decoration-style: wavy;
+        }
+        #s3:checked ~ #demo{
+            text-decoration-style: dashed;
+        }
+        #sd1:checked ~ #demo{
+            text-shadow: 10px 0px 4px rgb(49, 48, 48) ;
+        }
+        #sd2:checked ~ #demo{
+            text-shadow: 0px 10px 4px rgb(49, 48, 48) ;
+        }
+        #sd3:checked ~ #demo{
+            text-shadow: 10px 10px 4px rgb(49, 48, 48) ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Text Editor</h1>
+    
+            Color: </th>
+            <input type="radio" name="color" id="c1">Red
+            <input type="radio" name="color" id="c2">Black
+            <input type="radio" name="color" id="c3">Blue
+            <input type="radio" name="color" id="c4">Yellow
+            <br>
+       
+            Transform:
+            <input type="radio" name="transform" id="t1">uppercase
+            <input type="radio" name="transform" id="t2">lowercase
+            <input type="radio" name="transform" id="t3">capatilize
+      <br>
+            Decoration: 
+            <input type="radio" name="decoration" id="d1">udnerline
+            <input type="radio" name="decoration" id="d2">outerline
+            <input type="radio" name="decoration" id="d3">linethrough
+      <br>
+            Style:
+            <input type="radio" name="sty" id="s1">double
+            <input type="radio" name="sty" id="s2">wavy
+            <input type="radio" name="sty" id="s3">dashed
+        <br>
+           Shadow
+            <input type="radio" name="shadow" id="sd1">x-axis
+            <input type="radio" name="shadow" id="sd2">y-axis
+            <input type="radio" name="shadow" id="sd3">x-y-axis
+        <br>
+    <p id="demo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, exercitationem officia quaerat doloribus quo rem aliquid deserunt soluta consequuntur ullam necessitatibus modi. Reiciendis obcaecati quis, cupiditate iusto nam in aperiam.
+    Alias fuga vitae, officia possimus ratione est, quis ad sapiente iste eaque doloremque sit unde? Asperiores labore voluptates, error ex, quod ipsam molestiae consectetur quasi nobis iure consequuntur placeat aspernatur?
+    Maxime doloribus modi officia. Totam ad nesciunt repellat tenetur quibusdam enim, odio perferendis quaerat reiciendis excepturi. Facere aliquid esse ducimus quisquam delectus, exercitationem similique maxime, magnam voluptates, minus quo et.
+    Porro nihil blanditiis unde! Eum ipsa a laborum facere ipsum esse provident accusamus porro, nihil quisquam perspiciatis dicta architecto eveniet doloremque cumque blanditiis nesciunt commodi. Perferendis veritatis molestiae ratione hic?
+    Iusto earum eaque delectus est id voluptates, qui, placeat dicta, esse perspiciatis iste minus. Nam consectetur molestiae nemo reiciendis, corrupti architecto corporis illum quas! Autem dolorum modi cumque velit ratione.
+    Dolor doloremque esse aliquid quisquam, asperiores eaque, assumenda corporis accusantium deleniti aliquam magni est vel, recusandae sunt earum nulla ipsum quasi sapiente consectetur modi qui sed veniam atque! Sapiente, sed!</p>
+</body>
+</html>

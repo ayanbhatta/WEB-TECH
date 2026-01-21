@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Company Info</legend>
+        <label for="content">Content</label>
+        <input type="text" id="username" name="username">
+        <br>
+        <label for="company">Company</label>
+        <input type="text" value="Google" name="company" id="company">
+        </fieldset>
+        <fieldset>
+            <legend>Personal Info</legend>
+            <label for="name">username</label>
+            <input type="text" autocomplete="off" autofocus required minlength="4" maxlength="20">
+            <br>
+                <label for="email">Email</label>
+                <label for="">Upload Your Resume</label>
+                <br>
+                <input type="file" name="resume" id="resume" accept=".pdf,.png">
+                <br>
+                <label for="contact">Contact</label>
+                <input pattern="[0-9]{10,12}" type="tel" name="contact" id="contact">
+                <br>
+        </fieldset>
+        <fieldset>
+                <legend>Feedback</legend>
+                <label for="">Feedback</label>
+                <textarea name="" id="">Enter feedback</textarea>
+        </fieldset>
+        <button>Submit</button>
+    </form>
+</body>
+</html>

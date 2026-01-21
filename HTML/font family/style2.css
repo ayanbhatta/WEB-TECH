@@ -1,0 +1,36 @@
+.demo{
+    height: 100vh;
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+    background-attachment: fixed;
+}
+#first{
+   
+    background-image: url('https://media.istockphoto.com/id/814423752/photo/eye-of-model-with-colorful-art-make-up-close-up.jpg?s=612x612&w=0&k=20&c=l15OdMWjgCKycMMShP8UK94ELVlEGvt7GmB_esHWPYE=');
+    
+}
+#second{
+ 
+    background-image: url('https://img.freepik.com/free-photo/closeup-scarlet-macaw-from-side-view-scarlet-macaw-closeup-head_488145-3540.jpg?semt=ais_hybrid&w=740&q=80');
+}
+#third{
+ 
+    background-image: url('https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp');
+
+}
+#fourth{
+ 
+    background-image: url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSEDaMEoX0Tkzqw74YSBab3HI2czZ14hUpGxq1Wuko5h6hGPVhF');
+    
+}
+#fifth{
+  
+    background-image: url('https://thumbs.dreamstime.com/b/autumn-nature-landscape-colorful-forest-autumn-nature-landscape-colorful-forest-morning-sunlight-131400332.jpg');
+  
+}
+#sixth{
+
+    background-image: url('https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg');
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            height: 0px;
+        }
+        #onBtn:checked ~ #onBulb{
+            height: 100px;
+        }
+        #offBtn:checked ~ #offBulb{
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    ON<input type="radio" name="bulb" id="onBtn">
+    OFF<input type="radio" name="bulb" id="offBtn">
+    <br>
+    <img height="200px" src="/html using styling/bulbOff.webp" alt="" id="onBulb">
+    <img height="200px" src="/html using styling/bulbOn.png" alt="" id="offBulb">
+</body>
+</html>
