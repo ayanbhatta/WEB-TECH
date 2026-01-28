@@ -1,3 +1,5 @@
-colorzilla- color picker
-fontAwesome-icon
+Colorzilla - colour picker
+Font Awesome - icon
 flexbox froggy - flex display
+page ruler chrome extension
+font family ----font finder

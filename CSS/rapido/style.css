@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+/* header starts here */
+
+.header {
+  height: 12vh;
+  /* background-color: yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 160px;
+}
+.header .navContainer a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  margin: 0px 20px;
+}
+.header .navContainer a:hover {
+  color: #707070;
+}
+.logo img {
+  height: 50px;
+}
+/* header ends here */
+
+/* page 1 starts here */
+.page1 {
+  height: 75vh;
+  background-image: url("./assets/imgs/66e1052cdca1e68cc52d070e8c9631aa_1736774712641.png");
+}
