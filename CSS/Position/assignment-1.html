@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      .title {
+        color: rgb(11, 4, 87);
+        text-align: center;
+        font-size: 60px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      }
+      .container {
+        height: 80%;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+      .cards {
+        background-image: url(img.jpg);
+        background-size: contain;
+        margin-top: 100px;
+        height: 300px;
+        width: 300px;
+        border-radius: 20px;
+        padding: 25px;
+        position: relative;
+        overflow: hidden;
+      }
+      .card1 {
+        background-image: url(img3.jpg);
+        background-size: contain;
+        height: 100px;
+        width: 250px;
+        border: 3px solid black;
+        position: absolute;
+        bottom: -50px;
+      }
+      .card2 {
+        background-image: url(img1.jpg);
+        background-size: contain;
+        height: 100px;
+        width: 250px;
+        border: 3px solid black;
+        position: absolute;
+        bottom: -50px;
+      }
+      .card3 {
+        background-image: url(img2.jpg);
+        background-size: contain;
+        height: 100px;
+        width: 250px;
+        border: 3px solid black;
+        position: absolute;
+        bottom: -50px;
+      }
+      .card1:hover{
+            top: 200px;
+      }
+      .card2:hover{
+        top: 200px;
+      }
+      .card3:hover{
+        top: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title">CSS CARDS</h1>
+    <div class="container">
+      <div class="cards">
+        <div class="card1"></div>
+      </div>
+      <div class="cards">
+        <div class="card2"></div>
+      </div>
+      <div class="cards">
+        <div class="card3"></div>
+      </div>
+    </div>
+  </body>
+</html>
