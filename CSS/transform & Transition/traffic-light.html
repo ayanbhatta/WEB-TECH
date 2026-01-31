@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .page1 {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .pole {
+        height: 80vh;
+        width: 50px;
+        border-radius: 30px;
+        background-color: black;
+      }
+      .lightBox {
+        height: 120px;
+        width: 300px;
+        background-color: black;
+        border-radius: 40px;
+        align-self: start;
+        margin-top: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+      .lights {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        background-color: white;
+        animation-iteration-count: infinite;
+      }
+      .light1 {
+        animation-name: red;
+        animation-duration: 3s;
+      }
+      .light2 {
+        animation-name: yellow;
+        animation-duration: 3s;
+      }
+      .light3 {
+        animation-name: green;
+        animation-duration: 3s;
+      }
+      @keyframes red {
+        33% {
+          background-color: red;
+        }
+        34%,
+        100% {
+          background-color: white;
+        }
+      }
+      @keyframes yellow {
+        33% {
+          background-color: white;
+        }
+        34%,
+        66% {
+          background-color: yellow;
+        }
+        67%,
+        100% {
+          background-color: white;
+        }
+      }
+      @keyframes green {
+        0%,
+        66% {
+          background-color: white;
+        }
+        67%,
+        100% {
+          background-color: green;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page1">
+      <div class="pole"></div>
+      <div class="lightBox">
+        <div class="lights light1"></div>
+        <div class="lights light2"></div>
+        <div class="lights light3"></div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!--! https://codeshare.io/arQblE -->
